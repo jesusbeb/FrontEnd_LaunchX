@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charser="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <title>Pastelicious - Placer a tu paladar</title>
+</head>
+<body>
+    <a href="./Kata2.html">
+    <img src="./assets/img/logo_pastelicious.png" alt="logo pastelicios" width="200px">
+    </a>
+    <h1>Pedidos</h1>
+   
+    <form action="pedido.js">
+        <label for="Nombre">¿Cuál es tu nombre completo?</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre, Apellidos"><br><br>
+        <label for="Teléfono">Número de telefono: </label>
+        <input type="tel" id="telefono" name="telefono" placeholder="10 dígitos" maxlength="10"><br><br>
+        <label for="correo">Correo electrónico: </label>
+        <input type="email" name="direccionmail" placeholder="correo@dominio.com"><br><br>
+        <label for="Fecha">Fecha de entrega:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+        <br><br>
+        <hr>
+
+        <h2>Selecciona el sabor de tu pastel:</h2>
+        <table>
+        <tr>
+            <td>
+                <img src="./assets/img/3_leches.jpg" alt="3 Leches" width="200px"><br>
+                <input type="radio" id="3leches" name="sabor" value="Pastel3leches">
+                <label for="3leches">Pastel 3 leches - $449</label>
+            </td>
+            <td>
+                <img src="./assets/img/pastel_chocolate.jpg" alt="Pastel de chocolate" width="200px"><br>
+                <input type="radio" id="chocolate" name="sabor" value="Pastelchocolate">
+                <label for="chocolate">Pastel de chocolate - $489</label>
+            </td>
+            <td>
+                <img src="./assets/img/pastel_vainilla.jpg" alt="Pastel de vainilla" width="200px"><br>
+                <input type="radio" id="vainilla" name="sabor" value="Pastelvainilla">
+                <label for="vainilla">Pastel de vainilla - $399</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="./assets/img/pastel_fresa.jpg" alt="Pastel de fresa" width="200px"><br>
+                <input type="radio" id="fresa" name="sabor" value="Pastelfresa">
+                <label for="fresa">Pastel de fresa - $459</label>
+            </td>
+            <td>
+                <img src="./assets/img/pastel_moca.jpg" alt="Pastel de moca" width="200px"><br>
+                <input type="radio" id="moca" name="sabor" value="Pastelmoca">
+                <label for="moca">Pastel de moca - $449</label>
+            </td>
+            <td>
+                <img src="./assets/img/pastel_milhojas.jpg" alt="Pastel de mil hojas" width="200px"><br>
+                <input type="radio" id="milhojas" name="sabor" value="Paselmilhojas">
+                <label for="milhojas">Pastel de mil hojas - $549</label>
+            </td>
+        </tr>
+        </table>
+     
+        <br>
+        <hr>
+        <h2>Escoge la decoración para tu pastel:</h2>
+        <select name="decoracion" id="decoracion">
+            <option value="Glaseado">Glaseado --- $50</option>
+            <option value="Merengue">Merengue --- $40</option>
+            <option value="Fondant">Fondant --- $80</option>
+            <option value="Cremavellanas">Crema de avellanas --- $50</option>
+            <option value="Glaseadoliquid">Glaseado líquido --- $50</option>
+            <option value="fosting">Fosting o Betún --- $60</option>
+        </select>
+
+        <br>
+        <br>
+        <h2>¿Frutas o cereales?</h2>
+        <input type="checkbox" id="fresas" name="fresas" value="fresas">
+        <label for="fresas">Fresas...............$30</label><br>
+        <input type="checkbox" id="duraznos" name="duraznos" value="duraznos">
+        <label for="duraznos">Duraznos.............$30</label><br>
+        <input type="checkbox" id="nueces" name="nueces" value="nueces">
+        <label for="nueces">Nueces...............$40</label><br>
+        <input type="checkbox" id="uvas" name="uvas" value="uvas">
+        <label for="uvas">Uvas.................$35</label><br>
+        <input type="checkbox" id="frambuesas" name="frambuesas" value="frambueas">
+        <label for="frambuesas">Frambuesas...........$45</label><br>
+        <input type="checkbox" id="cerezas" name="cerezas" value="cerezas">
+        <label for="cerezas">Cerezas..............$45</label><br><br>
+        <hr>
+        
+        <h2>Agrega mas detalles o especificaciones de tu pastel:</h2>
+        <textarea cols="82" rows="10"></textarea>        
+        <br><br>
+        
+        <hr>
+        <br>
+
+        <p>Costo total: </p>
+
+        <br>
+        <input type="reset">
+        <input type="submit">
+        <br><br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charser="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-sacale=1.0">
+    <title>Pastelicios - Administrador</title>
+</head>
+<body>
+    <a href="./Kata2.html">
+        <img src="./assets/img/logo_pastelicious.png" alt="logo pastelicios" width="150px">
+    </a>
+    <h1>Admistrador e Inventarios</h1>
+    <hr>
+    <p>Aqui puedes ver los pedidos nuevos de tus clientes, el status de pedidos realizados, asi como la cantidad de ingredientes necesarios para la elaboracion del pastel. 
+       En la parte de inventario podras saber la cantidad de ingredientes con los que cuentas en relacion con la cantidad de ingredientes ocupados para la elaboracion de pasteles</p>
+    <h2>Pedidos</h2>
+    <table border="1">
+        <tr>
+            <th>Fecha de solicitud</th><th>Fecha de entrega</th><th>Sabor</th><th>Decoración</th><th>Frutas o cereales</th><th>Especificaciones o comentarios</th>
+            <th>Precio</th><th>Cantidad de ingredientes</th><th>Status del pedido</th>
+        </tr>
+        <tr>
+            <td>01/03/2022</td><td>08/03/2022</td>
+            <td>Pastel de chocolate</td><td>Crema de avellanas</td><td>Fresas, nueces, cerezas</td>
+            <td>Que diga Feliz Cumpleaños Teresa</td><td>$654</td><td>5 kg de harina, 1 litro de leche, 6 huevos, 300 gr de fresas, 100 gr de nueces, 200 gr de cerezas</td><td>En proceso</td>
+        </tr>
+        <tr>
+            <td>01/03/2022</td><td>18/03/2022</td>
+            <td>Pastel de vainilla</td><td>Fondant</td><td>Fresas, duraznos, uvas</td>
+            <td>Que lleve relleno de mermelada de fresa</td><td>$574</td><td></td><td>Pago pendiente</td>
+        </tr>
+        <tr>
+            <td>25/02/2022</td><td>05/03/2022</td>
+            <td>Pastel de fresa</td><td>Merengue</td><td>Fresas, Frambuesas, cerezas</td>
+            <td>Con las leyenda, "felicidades por el ascenso"</td><td>$619</td><td></td><td>Entregado</td>
+        </tr>
+        <tr>
+            <td>24/02/2022</td><td>06/03/2022</td>
+            <td>Pastel de moca</td><td>Glaseado líquido</td><td>Fresas, cerezas</td>
+            <td>Dibujarle con merengue unas flores</td><td>$574</td><td></td><td>Listo para entregar</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <h2>Inventario</h2>
+    <table border="1">
+        <tr>
+            <th>Ingredientes</th><th>En existencia</th><th>Recomendados</th><th>Necesarios</th><th>Comprar</th>
+        </tr>
+        <tr>
+            <td>Harina (kilos)</td><td>35</td><td>50</td><td>15</td>
+            <td><a href="https://super.walmart.com.mx/harina-y-reposteria/harina-de-trigo-tres-estrellas-integral-1-kg/00750106921001"><input type="button" value="Hacer pedido"></a></td>
+        </tr>
+        <tr>
+            <td>Huevos (piezas)</td><td>300</td><td>300</td><td>0</td><td></td>
+        </tr>
+        <tr>
+            <td>Leche (litros)</td><td>25</td><td>40</td><td>15</td><td><input type="button" value="Hacer pedido"></td>
+        </tr>
+        <tr>
+            <td>Chocolate (kilos)</td><td>24</td><td>30</td><td>6</td><td><input type="button" value="Hacer pedido"></td>
+        </tr>
+        <tr>
+            <td>Fresas (kilos)</td><td>5</td><td>10</td><td>5</td><td><input type="button" value="Hacer pedido"></td>
+        </tr>
+    </table>
+    <br><br>
+</body>
+</html>
